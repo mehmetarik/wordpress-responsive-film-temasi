@@ -1,6 +1,8 @@
 ## Ücretsiz WordPress Film Teması
 Hangi temayı kullanıyor olursanız olun eski içeriklerinizi kaybetmeden Othemes Responsive Film Teması‘na zahmetsizce geçebilirsiniz. Tema ayarlarından eski temanızla ilgili özel alanları yeni temanıza kolayca aktarabilirsiniz. Othemes Responsive Film Teması hazırda 2 farklı renk seçeneğine sahiptir ve responsive (mobil uyumlu) yapıdadır.
 
+![Film Teması](http://othemes.net/wp-content/uploads/edd/wordpress-film-temasi-anasayfa-1.jpg)
+
 SEO bakımından en güncel arama morotu standartları gözetilerek kodlanmıştır. Sıradan temaların aksine film bilgileri WordPress taksonomileri ile girilir ve tüm film bilgileri kendine ait arşiv sayfasına açılır. Böylece hiç uğraşmadan mükemmel bir iç link yapısına sahiptir. Ayrıca tüm kategori ve etiket açıklamalarınız da kendine ait sorgu sayfalarında görünür ve arama motorları tarafından indekslenmesine yardımcı olur.
 
 - Mükemmel SEO desteği
