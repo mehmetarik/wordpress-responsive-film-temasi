@@ -1,0 +1,602 @@
+/* 	Theme Name: Othemes Wordpress Film Temasi	Theme URL: http://othemes.net/demo/#film_wp	Description: Profesyonel Wordpress film temasi.	Author: Othemes	Author URI: http://www.othemes.net	Version: 1.4	Tags: film temasi, wordpress film temasi*/
+
+/********************** RESET ***************************/
+*::-moz-selection {background: none repeat scroll 0% 0% #1A6B29;color: #FFF;text-shadow: none;}
+a, a:visited {text-decoration: none;color:#333;}
+a:hover {text-decoration:none;color:#FF0033 ;}	
+a img {}
+a:focus, a:hover, a:active {outline:none;}
+li { list-style: none; }
+ul{  }
+ul a {color:#ccc;}
+small{color:#333;}
+blockquote {margin: 0px 25px 15px 25px;color:#333;padding: 10px 10px 0px 10px;border: 1px solid #ddd;text-align: justify;}
+code { margin: 0px 25px 15px 25px;color:#333;padding: 10px 10px 0px 10px;border: 1px solid #ddd;text-align: justify;}
+.right {float:right;overflow:hidden;}
+.left {float:left;overflow:hidden;}
+.clear {clear: both;}
+.clearfix:after {content:".";display:block;height:0;clear:both;visibility:hidden;}
+.clearfix {display:inline-block;}
+.clearfix {display:block;}
+
+/*************************** GENEL FONT AYARLARI ***********************/
+@font-face { font-family: 'Roboto', sans-serif; font-style: normal; font-weight: normal;color:#333;}
+#header h1 {color: #FFFFFF;font-size: 36px;font-family: 'Roboto', sans-serif;font-weight: normal;margin: 0px;padding: 15px 0px 0px 20px;text-decoration: none;}
+#header h1 a, #header h1 a:visited {color: #FFFFFF;font-size: 36px;font-family: 'Roboto', sans-serif;font-weight: normal;margin: 0px;padding: 0px;text-decoration: none;}
+#header h1 a:hover {color: #FFFFFF;text-decoration: none;}
+#header h3 {color: #A91B33;font-size: 16px;font-family: 'Roboto', sans-serif;font-weight: normal;margin: 0px;padding: 0px;}
+
+/********************** GENEL ************************/
+body {background:none repeat scroll 0% 0% #30061c;font-size: 13px;font-weight:normal;font-family: Roboto,sans-serif;margin: 0px auto;padding: 0px;width:99%;overflow:auto;color:#333;}
+#wrap {max-width: 980px;margin: -10px auto 0px;padding: 0px;}
+#content {width: 980px;margin: 0px auto;padding: 10px 0px 0px 0px;line-height: 18px;color:#333;font-size:12px;}
+
+/*********************** HEADER ******************************/
+#header {width: 100%;color: #FFFFFF;font-size: 11px;height:80px;padding: 0px;overflow: hidden;margin: 25px 0px 10px;}
+#header p {color: #FFFFFF;padding: 0px 0px 5px 20px;margin: 0px;line-height: 20px;}
+/* header logo */
+.headerleft {margin: 2px 10px 20px 0px;width: 25%;height: 90px;float: left;}
+.headerleft a img {border: none;margin: 0px;padding: 0px;width: 100%;height: 90%;}
+/* header reklam alaný */
+.headerright{float:right;position:relative;display:block;height:90px;width:72%;}
+.headerright img{height:90%;width:100%;display:block;}
+.headerright a{}
+
+/***************************** ÜST BÖLÜM ******************************/
+#topnavbar {width: 100%;height: 30px;color: #000;margin:0px auto;padding: 0px;margin-top:15px;border-radius: 0px 0px 10px 10px;-moz-border-radius: 0px 0px 10px 10px;-webkit-border-radius: 0px 0px 10px 10px;border: 0px solid #000000;}
+#topnavbar a, #topnavbar a:visited {font-size: 11px;font-weight: bold;color: #000;text-decoration: none;}
+#topnavbar a:hover {text-decoration: underline;} 
+#topnavbar p {font-size: 11px;font-weight: bold;padding: 0px;margin: 0px;}
+
+/*********************** ÜST WORDPRESS MENÜ *******************************/
+#nav2 {margin: 0px;padding: 0px;}
+#nav2 ul {float: left;list-style: none;margin: auto auto auto 1px;padding: 0px;}
+#nav2 li {float: left;list-style: none;padding: 0px; margin: 0px 5px 0px 0px;}
+#nav2 li a, #nav2 li a:link, #nav2 li a:visited {color: #18222C;display: block;font-size: 14px;float: left;font-weight: 500;line-height:14px;font-family: "Roboto",sans-serif;text-transform: capitalize;padding: 0px 4px 2px 14px;box-sizing: border-box;}
+#nav2 li a:hover, #nav2 li a:active {color:#FF6633 ;}
+#nav2 li li a, #nav2 li li a:link, #nav2 li li a:visited {text-decoration: underline;}
+#nav2 li li a:hover, #nav2 li li a:active {background: #333333;color: #ccc;padding: 3px 5px 3px 5px;border-bottom: 1px solid #242424;border-left: 1px solid #191919;border-right: 2px solid #97C000;border-top: 1px solid #414141;}
+#nav2 li ul.sub-menu {float:left;margin-left:-2px;padding:0px;border:1px solid #0e0e0e;width:142px;box-shadow:0px 0px 2px 2px #111111;}	
+#nav2 li ul {z-girx: 9999;position: absolute;left: -999em;height: auto;min-width: 142px;overflow:hidden;margin: 0px;padding: 0px;}
+#nav2 li li {border:none;}
+#nav2 li ul a {width: 140px;}
+#nav2 li ul a:hover, #nav2 li ul a:active { }
+#nav2 li ul ul {margin: -32px 0 0 171px;}
+#nav2 li:hover ul ul, #nav2 li:hover ul ul ul, #nav2 li.sfhover ul ul, #nav2 li.sfhover ul ul ul {left: -999em;}
+#nav2 li:hover ul, #nav2 li li:hover ul, #nav2 li li li:hover ul, #nav2 li.sfhover ul, #nav2 li li.sfhover ul, #nav2 li li li.sfhover ul {left: auto;}
+#nav2 li:hover, #nav2 li.sfhover { position: static;}
+
+/*********************** ÜST BÖLÜM PARÇALARI **************************/
+.topnavbarleft {width: 300px;float: left;margin: 0px;padding: 8px 0px 0px 10px;}
+.topnavbarright {float: right;display:block;position:relative;height:20px;width:170px;margin-top:-7px;}	
+.topnavbarright ul li a {list-style: outside none none;float: left;margin: 0px 0px 0px 0px;position: relative;width:26px;height:20px;color:#000;}	
+.topnavbarright ul li{}
+.ustnav{width: 100%;height: 42px;margin:0px auto;padding: 0px;background:#eee;display:block;position:absolute;top:0px;left:0px;z-index:-1;border-bottom:4px solid #34495E;} /*arkadaki gri perde */
+.f-nav{ z-index: 9999; position: fixed; left: 0; top: -10px; opacity:1.0;width: 100%; } /* fixed pos sýnýfý */
+.f-nav2{ z-index: 9998; position: fixed; left: 0; top: 0px; opacity:0.9;width: 100%;height: 42px;margin:0px auto;padding: 0px; ;} /* fixed pos sýnýfý */
+
+/********************** ÜST BÖLÜM ARAMA FORMU *************************/
+.arama { height:42px;float:right;width: 201px;position:relative;z-index:9999;margin-top:-3px;display:none;}
+#aramaozel{float:right;display:block;position:relative;width:50px;height:25px;font-family: Roboto;font-size:26px;margin-top:3px;cursor:pointer;}
+#searchform {background: none repeat scroll 0% 0% #FFF;border-radius: 5px;}
+#searchbox {	padding: 10px;display: block;margin: 2px 0px 0px;float: left;width: 179px;border: 0px none;font-size: 14px;color: #888;outline: 0px none;border-radius: 5px;}
+#searchbutton {border: 0px none;padding: 10px 0px;cursor: pointer;background: none;width:0px;margin-right:-80px;text-transform: uppercase;
+border-top-right-radius: 5px;border-bottom-right-radius: 5px;}
+#submit {background: #7B7B7B;color: #FFFFFF;font-size: 11px;font-family: verdana,geneva,lucida,'lucida grande',arial,helvetica,sans-serifdana;margin: 0px;padding: 3px 3px 2px 3px;font-weight: bold;border-top: 1px solid #8B8B8B;border-right: 1px solid #7B7B7B;border-left: 1px solid #7B7B7B;border-bottom: 1px solid #8B8B8B;cursor:pointer;}
+
+/********************** ÜST BÖLÜM SOSYAL PAYLAÞIM *****************************/
+.fb-icon {background: url(images/sprite.png) repeat scroll 0px -124px transparent;width: 20px;height: 20px;}
+.fb-icon:hover {opacity:0.6;}
+.tw-icon {background: url(images/sprite.png) repeat scroll 0px -144px transparent;width: 20px;height: 20px;}
+.tw-icon:hover {opacity:0.6;}
+.gp-icon {background: url(images/sprite.png) repeat scroll 0px -188px transparent;width: 20px;height: 20px;}
+.gp-icon:hover {opacity:0.6;}
+.rss-icon {background: url(images/sprite.png) repeat scroll 0px -166px transparent;width: 20px;height: 20px;}
+.rss-icon:hover {opacity:0.6;}
+
+/***************************** ÜST BÖLÜM KULLANICI GÝRÝÞ ÇIKIÞ *****************************/
+#abonelik{float:right;padding-right:5px;color:#444;padding-top:8px;width:170px;}
+#abonelik a{color:#444;margin-left:6px;font-size:14px;font-weight:500;}
+.gir {background:url(images/sprite.png) -3px -79px no-repeat;width:35px;padding:0px 0px 0px 20px;}
+.memo {background:url(images/sprite.png) -3px -58px no-repeat;width:35px;padding:0px 0px 0px 20px;}
+.cikgit {background:url(images/sprite.png) -3px -98px no-repeat;width:32px;padding:0px 0px 0px 20px;}
+
+/******************************* ANA WORDPRESS MENÜ ********************************************/
+
+.nav3{margin:10px 0 0px 0;float:left;height:auto;padding:5px 0 0 0px;background:#f2f2f2;width:100%;
+display:inline-block;position:relative;border-bottom:4px solid #34495E;-webkit-border-top-left-radius:6px;-webkit-border-top-right-radius:6px;-moz-border-radius-topleft:6px;-moz-border-radius-topright:6px;border-top-left-radius:6px;border-top-right-radius:6px;}
+.nav3 ul li ul{padding:5px;background:#34495E;border-bottom:3px solid #2c3e50;position:absolute;top:37px;left:0;width:330px;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;display:none;opacity:0;visibility:hidden;-webkit-transiton:opacity .2s;-moz-transition:opacity .2s;-ms-transition:opacity .2s;-o-transition:opacity 0. 2s;-transition:opacity .2s;-webkit-border-bottom-right-radius:5px;-webkit-border-bottom-left-radius:5px;-moz-border-radius-bottomright:5px;-moz-border-radius-bottomleft:5px;border-bottom-right-radius:5px;border-bottom-left-radius:5px;z-index:9999;}
+.nav3 ul{margin:0;padding:0;}
+.nav3 ul li{list-style:none;margin:5px 5px 0 0;float:left;position:relative;}
+.nav3 ul li a,.nav3 ul li a:visited{color:#333;font-size:15px;float:left;font-weight:700;padding:5px 10px 2px 10px;font-family:Roboto;line-height:45px;margin-top:-15px;}
+.nav3 ul li a:hover{text-shadow:none;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;color:#34495E;}
+.nav3 ul li:hover{-webkit-border-top-left-radius:5px;-webkit-border-top-right-radius:5px;-moz-border-radius-topleft:5px;-moz-border-radius-topright:5px;border-top-left-radius:5px;border-top-right-radius:5px}
+.nav3 ul li ul li a,.nav3 ul li ul li a:visited{border:none!important;text-transform:none!important;font-weight:300!important;padding:4px 5px 4px 10px!important;
+margin-top:-5px;line-height:25px;font-family:Roboto!important;color:#fff!important;font-size:13px!important;width:145px;float:left;display:inline-block;position:relative;}
+.nav3 ul li ul li{display:inline-block;position:relative;color:#fff;width:155px;}
+.nav3 ul li ul li a:hover{background:#f!important;color:#fff!important;border-radius:0!important}
+.nav3 ul li:hover ul{display:block;opacity:1;visibility:visible}
+
+/*********************************** ALFABETÝK LÝSTE *********************************/
+
+.alfaliste{width:100%;height:auto;margin-left:0px;background:#e4e3e3;margin-bottom:12px;float:left; display:inline-block;position:relative;
+-webkit-border-bottom-left-radius:6px;-webkit-border-bottom-right-radius:6px; -moz-border-radius-bottomleft:6px;-moz-border-radius-bottomright:6px;border-bottom-left-radius:6px;border-bottom-right-radius:6px;border-bottom:4px solid #444;}
+.alfaliste ul{margin:0px auto;padding-left:17px;width:100%;}
+.alfaliste ul li{float:left;border-right:1px solid #999;font-size:18px;line-height:30px;width:23px;margin-right:7px;cursor:pointer;}
+.alfaliste ul li a{font-family: Arial, sans-serif;font-size:18px;border-right:1px solid #999;color:#18222C;float:left;line-height:30px;width:23px;cursor:pointer;margin-right:7px;}
+.alfaliste ul li.lastlist{border:0;}
+.alfaliste ul li a:hover{color:#FF3333 ;}
+
+/***************************** ÝNDEX FÝLM CAROUSEL ************************************/
+
+#ana_basligim{font-size: 17px;line-height:30px;display:block;position:relative;width:97%;
+ background: none repeat scroll 0% 0% #34495E; float: left; color: #FFF;font-weight: 700;letter-spacing: 0px;font-family: Roboto;margin: 0px 0px 0px 0px;padding: 2px 17px 0px;border-top-left-radius: 10px; border-top-right-radius: 10px;}
+ .owl-carousel{margin: 0px 0px 30px;overflow: hidden;background: none repeat scroll 0% 0% #f2f2f2;padding:10px;padding-left:15px;padding-top:14px;border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;position: relative;width: 98%;height: 241px;display: none;position: relative;-ms-touch-action: pan-y;}
+.owl-carousel .owl-wrapper:after {content: ".";display: block;clear: both;visibility: hidden;line-height: 0;height: 0;}
+/* duruma göre deðiþme */
+.owl-carousel .owl-wrapper{display: none;position: relative;	-webkit-transform: translate3d(0px, 0px, 0px);}
+.owl-carousel .owl-wrapper-outer{overflow: hidden;position: relative;width: 100%;}
+.owl-carousel .owl-wrapper-outer.autoHeight{	-webkit-transition: height 500ms ease-in-out;-moz-transition: height 500ms ease-in-out;	-ms-transition: height 500ms ease-in-out;-o-transition: height 500ms ease-in-out;transition: height 500ms ease-in-out;}
+.owl-carousel .owl-item{	float: left;margin-right:0px;}
+.owl-carousel .owl-item img{border-radius: 5px;border:2px solid #46676f;width:147px;height:225px;}
+.owl-carousel .owl-item img:hover{border-radius: 5px;border:2px solid #555;}
+.owl-controls .owl-page,.owl-controls .owl-buttons div{cursor: pointer;}
+/* fare sürükleme simgesi */
+.grabbing { cursor:url(grabbing.png) 8 8, move;}
+/* ie düzeltmesi */
+.owl-carousel  .owl-wrapper,.owl-carousel  .owl-item{	-webkit-backface-visibility: hidden;-moz-backface-visibility:hidden;-ms-backface-visibility:hidden;  -webkit-transform: translate3d(0,0,0);-moz-transform: translate3d(0,0,0);-ms-transform: translate3d(0,0,0);}
+/* sayfalama stili */
+.owl-theme .owl-controls .owl-page{display: inline-block;zoom: 1;*display: inline;/* IE7 için sakýn silme */}
+.owl-theme .owl-controls .owl-page span{display: block;width: 10px;height: 10px;margin: -14px 7px;filter: Alpha(Opacity=50);/* IE7 için sakýn silme */opacity: 0.5;	-webkit-border-radius: 20px;-moz-border-radius: 20px;border-radius: 20px;background: #fff;}
+.owl-theme .owl-controls .owl-page.active span,.owl-theme .owl-controls.clickable .owl-page:hover span{filter: Alpha(Opacity=100);/* IE7 için sakýn silme */opacity: 1;}
+/* Numaralý sayfalama varsa */
+.owl-theme .owl-controls .owl-page span.owl-numbers{	height: auto;width: auto;color: #FFF;padding: 0px 0px;font-size: 12px;-webkit-border-radius: 30px;-moz-border-radius: 30px;	border-radius: 30px;}
+
+/***************************** GENEL KOLON AYARLARI *****************************/
+.solbolum {float:left;width:74%;min-height:390px;clear:left;margin-top:-10px;}
+.anacerceve {width:100%;float:left;height:auto;padding: 0px;margin-bottom:20px;float:left;}
+.anaicerik {width:100%;float:left;height:auto;background: none repeat scroll 0% 0% #F2F2F2;padding: 20px 10px 10px;margin:0px auto;}
+.anaicerik ul { margin:0px 5px 2px 15px; padding:5px 10px 5px 10px;font-size:12px;font-weight:bold;}
+.anaicerik li {list-style:square;color:#ccc;}
+.anaicerik li a {}
+.anaicerik .tagcloud {margin:5px;padding:5px;}
+.anaicerik .postform, select {margin:5px 5px 5px 8px;padding:5px;width:98%;background:#fff;border:0px solid #323232;color:#333;}
+#filmsagli{display:inline-block;position:relative;margin-top:35px;width:35px;float:right;}
+.genislet{float:left;width:16px;}
+.genislet2{float:left;width:16px;}
+
+/********************************** ANASAYFA ********************************/
+/* filmleri sýralama bölümü */
+#baslikanaicerik{height:36px;width:102%;border-top-left-radius: 5px;border-top-right-radius: 5px;background:#34495E;padding-right:5px;display:block;position:relative;padding-bottom:10px;color:#fff;}
+#baslikanaicerik ul .first{width:130px;margin-right:15px;line-height:22px;color:#fff;}
+#baslikanaicerik ul li a:active{color:#FFFF00 ;text-decoration:none;font-size:28px;}
+#baslikanaicerik ul li a{width:30px;margin-right:6px;float:left;font-size:20px;color:#FFFF00 ;font-weight:400;}
+#baslikanaicerik ul li a:hover, #baslikanaicerik ul li a:focus{color:#FFFF00 ;text-decoration:none;font-size:28px;}
+#baslikanaicerik ul{width:400px;float:left;margin-left:-20px;}
+#baslikanaicerik ul li{width:30px;margin-right:6px;float:left;font-size:17px;font-weight:400;color:#FF9933 ;}
+/* anasayfa baþlýklarý */
+.ana_title23{font-size: 15px;line-height:25px;text-transform: uppercase;float: right;color: #FFF;font-weight: 700;letter-spacing: 0px;font-family: 'Roboto', sans-serif;display:block;position:relative;margin-bottom:0px;z-index:9999;padding-right:20px;}
+/* film listesi görünüm */
+.filmcerceve {width:134px;float:left;color:#005baa;font-size:11px;font-weight:normal;text-align:center;height: 250px;margin: 0px 6px 15px 3px;padding: 0px;position: relative;border-radius: 5px;border: 1px solid #5f99af;}
+.filmcerceve:hover{ border: 1px solid #7ab1c5;}
+.filmcerceve a:hover{color:#1d3365;text-decoration:none;}
+.filmcerceve img {width:134px;height:173px;padding:0px;border-top-left-radius:4px;border-top-right-radius:4px;}
+.filmgorunum{width:118px; height:60px;float:left;color:#fff;font-size:11px;font-weight:normal;background: none repeat scroll 0% 0% #c5deda;overflow:hidden; line-height:14px;margin-top:-5px;padding:8px;border-bottom-left-radius: 4px;border-bottom-right-radius: 4px;}
+.filmgorunum a{color:#333;font-family: Roboto;font-weight: 500;line-height: 16px;font-size: 12px;text-align: center;}
+/* izlenme sayýsý */
+.izlenme {float:right;margin-top:8px;font-family:verdana,geneva,lucida,'lucida grande',arial,helvetica,sans-serif;}
+.izlenme span {color:#cccccc;font-size:10px;}
+.izlenme .ok {height:24px;background:url(images/tv.png) no-repeat;padding:1px 0px 0px 35px;font-size:18px;}
+/* imdb puaný -- izlenme sayýsý -- yorum sayýsý */
+.puan{background: none repeat scroll 0% 0% #F1C40F;font-family: Roboto;position: absolute;right: 0px;bottom: 77px;text-align: center;color: #333;
+border-radius: 2px;padding: 2px 12px;line-height:14px;font-weight: 400;font-size: 10px;text-transform: uppercase;}
+
+/************************************ FÝLM SAYFASI **********************************/
+/* film baþlýðý */
+.singleh1baslik{padding: 7px 17px;font-family: Roboto;background: none repeat scroll 0% 0% #34495E;margin: 6px 0px 0px;border-top-left-radius: 8px;border-top-right-radius: 8px;float: left;width: 98%;line-height:28px;color:#fff;}
+.singleh1baslik a{color: #FFF;text-shadow: 1px 2px #C0392B;font-size: 21px;font-weight: 700;}
+/* part sistemi */
+.othemes_part {	float:left;margin:-4px 0px 3px -3px;padding: 0em 1em 0.2em;font-size: 12px;list-style-type: none;line-height:18px;text-align: left;font-family: tahoma;width:96%;}
+.othemes_part a span {color: #333;font-weight: 400;padding: 5px;background: none repeat scroll 0% 0% #FFF;}
+.othemes_part span {background: none repeat scroll 0% 0% #2C3E50;margin-right: 5px !important;float: left;border: 1px solid #CCC;font-weight: 400;color: #FFF;padding: 5px;margin-bottom: 5px;border-radius: 5px;}
+.othemes_part a span:hover {}
+.othemes_part a {padding: 0;margin: 0;background: none;border: 0;text-decoration: none;}
+span.bgnm{background: none repeat scroll 0% 0% #ddd !important;color:#fff;}
+spam.bgnm a{color:#fff;}
+span.bgnm a:hover {text-decoration:underline;}
+.pagele {background:#0F0F0F;width:520px;margin:-10px 0 0 104px;border:1px solid #1E1E1E;}
+.pageler {margin:5px 0 3px 11px;text-align:center;}	
+/* film content */
+.filmicerik {margin:-10px 10px 10px 8px;width:670px;height:auto;overflow:hidden;color:#222;font-weight:normal;display:block;float:left;z-index: 101;font-size:13px;}
+.filmicerik object, .filmicerik embed{width: 711px;}
+/* beðen butonu */
+.begen {float:left;display: inline-block;width: 35px;margin-bottom:6px;height: 36px;}
+.begen .likeThis {border-radius: 5px;font-family: "helvetica",arial,serif;display: inline-block;font-weight: bold;color: #fff;font-size:18px;background: url(images/begen.png)no-repeat;width: 35px;height: 36px;line-height: 1.8em;cursor: pointer;}
+.begen .likeThis:hover, .begen .likeThis.done {background: url(images/begen.png) no-repeat;text-decoration: none;}
+.begen .likeThis.done {color: #fff;cursor:default;text-decoration:none;}
+/* ýþýklarý kapat */
+.switch { position: relative; display: block; width:35px;height:36px;float:left;cursor:pointer;margin-bottom:6px; }
+.switch img{background:#333;border-radius:20px;width:35px;height:36px;}
+.switch:hover, .button.allofthelights:active, .button.allofthelights:focus {}
+/* film sosyal paylaþým butonlarý */
+.twitter img{background:#58CCFF;border-radius:20px;width:35px;height:36px;}
+.facebook {}
+.facebook img{background:#333;border-radius:20px;width:35px;height:36px;}
+.google-plus img{background:#333;border-radius:20px;width:35px;height:36px;}
+/* film açýklamasý baþlýðý */
+.yazitipfilm{color: #34495E;font-family: Roboto;font-size: 26px;font-weight: 700;line-height:28px;margin: 0px 10px 10px;}
+/* film açýklamasý içerik */
+.filmalti { width:700px;height:auto;margin-left:8px;margin-top:-10px;background:#282828;}
+.filmalti p {margin:6px 0;}
+.filmaltiaciklama {font-size:12px;line-height:14px;font-family: Arial, Tahoma, Verdana;font-weight:bold;color:#515151;width:570px;height:auto;float:left;margin:15px 0px 10px 20px;}
+.filmaltiaciklama span {color:#222;font-size:12px;width:70px;float:left;}
+.filmaltiaciklama a {color:#222;font-size:12px;}
+.filmaltiaciklama span a {color:green;font-size:16px;}
+.konuozet {width:690px;margin:0px auto;}
+.konuozet p{font-size: 14px;text-girnt: 15px;margin-left:-20px;line-height: 1.5em;color: #222;font-family: Roboto;font-weight:normal;}
+
+/******************************** STANDART WORDPRESS SAYFALARI ************************************/
+/* sayfa baþlýðý */
+.yazitipprofil{display: block;width: 100%;background: none repeat scroll 0% 0% #18222C;font-size: 16px;line-height: 34px;height: 34px;text-transform: uppercase;margin-bottom: 3px;border-top-left-radius: 0px;border-top-right-radius:0px;float: left;color: #FFF;font-weight: 600;margin-top: -20px;margin-left:-10px;letter-spacing: 0px;font-family: Roboto;position: relative;padding: 2px 10px 0px;}
+/* sayfa içerik */
+.filmicerik2 {margin-left:8px;font-size:14px;margin-top:0px;width:711px;height:auto;overflow:hidden;color:#222;font-family:Roboto;font-weight:500;}
+.filmicerik2 a {color:#FF0033 ;font-size:14px;font-family:Roboto;font-weight:500;}
+.filmicerik2 p{color:#222;}
+/* sayfa alt sosyal bölümü */
+#alt {background:none;width:713px;height:38px;margin:-9px 0px 0px 8px;border:none;}
+/* sayfa sosyal paylaþým */
+.google {float:left;width:60px;margin:9px 0px 0px 5px;}
+.facebok {float:left;width:135px;height:31px;margin:7px;}
+.twitter{width:60px;height:31px;margin:0px;}
+.twitter2{float:left;width:74px;height:31px;margin:7px;}
+.googleplus2{float:left;width:140px;height:31px;margin:7px;}
+.pinit{float:left;width:35px;height:31px;margin:7px;}
+
+/************************************ MOBÝL ÝÇÝN ÜST BÖLÜM ************************************/
+@media only screen and (min-width: 481px) {
+#mobil {display:none;}
+#pull {display: none;}
+}
+/* arama */
+.arama2 {float: left;margin:0px auto;width: 99%;}
+#subbox {background: #ffffff !important;width: 125px;color: #202020;font-size: 11px;font-family: verdana,geneva,lucida,'lucida grande',arial,helvetica,sans-serif;font-weight: normal;margin: 8px 0px 0px 15px;padding: 3px 0px 3px 5px;border: 1px solid #ffffff;display: inline;}
+#subbutton {background: url(images/hepsi.png) -293px -126px no-repeat;color: #FFFFFF;font-size: 10px;margin: 0px 0px 0px 13px;padding: 0px 3px 2px 3px;height:32px;width:60px;border:none;cursor:pointer;}
+
+/****************************** MOBÝL NAVÝGASYON MENÜ **************************************/
+.nav{margin:10px 0 0 0;float:left;height:auto;padding:5px 0 0 5px;width:98%;background:#34495e;color:#fff;}
+.nav ul{margin:0;padding:0}
+.nav li{list-style:none;float:left;position:relative}
+.nav li a{line-height:30px;color:#fff!important;font-size:16px;float:left;font-weight:700;padding:5px 10px 2px 10px;text-transform:uppercase;font-family:Roboto;float:left;}
+.nav li a:hover{color:#fff!important;}
+.nav  li:hover{background:#34495e;}
+.nav  li:hover a{color:#fff!important;}
+.nav ul li ul{display:none;}
+.nav ul li ul li{display:none;}
+.nav ul li ul li a,.nav ul li ul li a:visited{display:none;}
+.nav ul li ul li a:hover{display:none;}
+.nav ul li:hover ul{display:none;}
+
+/*************************************** YORUMLAR *****************************************/
+/* yorum girme baþ bölümü */
+.anacercevef {width:100%;float:left;height:auto;margin-left:0px;padding: 0px;margin-bottom:20px;}
+.anaicerikf {width:100%;color:#222;float:left;height:auto;background: none repeat scroll 0% 0% #f2f2f2;padding: 20px 10px 10px;border-radius: 10px;margin:0px auto;}
+.anaicerikf ul { margin:0px 5px 2px 15px; padding:5px 10px 5px 10px;font-size:12px;font-weight:bold;}
+.anaicerikf li {list-style:square;color:#ccc;}
+.anaicerikf li a {}
+/* yorum yap baþlýðý */
+.yazitipfilmf{color: #E74C3C;font-family: Roboto;font-size: 26px;font-weight: 700;line-height:28px;margin: 0px 10px 10px;}
+/* avatar */
+.user-avatar {margin:10px;}
+.user-avatar img {border:2px solid #0f0f0f;}
+.user-avatar a {color:#BF8007;}
+/* facebook yorum */
+#faceyorum{color:#222;}
+#faceyorum a{color:#222;}
+/* yorum özel karakterler */
+#content img.wp-smiley {float: none;border: none;margin: 0px;padding: 0px;}
+#content img.wp-wink {float: none;border: none;margin: 0px;padding: 0px;}
+#content blockquote p {margin: 0px;padding: 0px 0px 15px 0px;}
+/* genel yorum özellikleri */
+#comment {border-radius: 5px;font-family: Roboto;font-size: 12px;width: 426px;height: 107px;padding: 5px !important;border: 1px solid #CCC;color: #222;background: none repeat scroll 0% 0% #FFF;outline: 0px none;}
+#comment:focus{border:1px solid #143C56;}
+#gonder {font-size: 15px;font-family: Roboto;color: #FFF;background: none repeat scroll 0% 0% #34495E;border: 0px none;padding: 2px 10px;cursor: pointer;border-radius: 5px;}
+#gonder:hover{}
+#gonder:active {}
+.dikey {background:none;padding:0px;width:250px;height:36px;overflow:hidden;border-radius:6px;}
+.dikey label {float:left;margin:9px 10px 0px 10px;padding:0px;width:20%;font-size:12px;font-weight: bold;color:#222;}
+.dikey input {width:70%;height:21px;overflow:hidden;border:0px;background: #fff;float:left;margin:0px;padding:0px;font-size:12px;font-weight: normal;color:#222;line-height:20px;}
+#commentform input {width: 168px;padding: 1px 4px 3px 4px;margin: 6px 0px 0px 0px;border-radius:3px;}
+#commentform {margin: 5px 10px 0px 0px;}
+#respond:after {content: "."; display: block; height: 0px; clear: both; visibility: hidden;}
+#commentform p {margin: 5px 0px 5px 0px;color:#333;}
+#commentform #submit {margin: 0px;float: left;}
+.alt {margin:0px;padding: 10px;}
+.commentlist {margin: 0px;width:707px;padding: 0px;border-radius: 5px;}
+.commentlist li:hover{}
+.commentlist ol {margin: 0px;}
+.commentlist li {  background: none repeat scroll 0% 0% #34495E;font-weight: bold;margin: 15px 0px 10px;padding: 10px 5px 10px 10px;list-style: none;border-radius:6px;}
+.commentlist li ul li {font-size: 12px;margin-right: -5px;margin-left: 10px;}
+.commentlist li .avatar { width:30px;height:30px;float: right;padding: 2px;border-radius:4px;}
+.commentlist cite, .commentlist cite a {font-family: Roboto;color: #fff;font-size: 15px;font-style:normal;text-shadow:none;}
+.commentlist a { color:#FF9900 ; }
+.commentlist .url {color:#FF9900 }
+
+.commentmetadata {font-weight: normal;font-size: 0.9em;color: #ddd;margin: 5px 0px 10px;font-family: Roboto;}
+.cancel-comment-reply {margin-left:10px;font-weight: bold;}
+.commentlist p {color:#fff;text-transform: none;font-size: 12px;font-weight:400;line-height: 1.2em;margin-bottom: 15px;font-family: Roboto;}
+.commentlist p:first-letter {text-transform:uppercase;}
+.comment-meta {color:#ddd;}
+.comment-zaman {color:#ddd;font-style:normal;font-size:11px;}
+.children { margin: 0px;padding: 0px;}
+.nocomments {text-align: center;margin: 0px;padding: 0px;}
+.commentmetadata {font-size: 10px;margin: 0px;display: block;}
+.navigation {display: block;color:#FF0033 ;text-align: center;margin-top: 10px;margin-bottom: 10px;font-size:15px;font-family:'Roboto', sans serif;font-weight:500;}
+.alignright {float: right;}
+.alignleft {float: left;}
+.thread-alt {margin: 0px;padding: 0px;}
+.thread-even {margin: 0px;padding: 0px;}
+.even, .alt {margin: 0px;padding: 0px;}
+#author, #url {background: #fff !important;width: 250px;color: #ddd;font-size: 12px;font-weight: normal;margin: 3px 0px 0px 0px;padding: 3px 0px 3px 5px;border:0px;display: inline;}
+#email, #url {background: #fff !important;width: 250px;font-size: 12px;font-weight: normal;margin: 3px 0px 0px 0px;padding: 3px 0px 3px 5px;border:0px;display: inline;}
+
+/************************************* DUBLAJ BÝLGÝLERÝ ****************************************/
+.tr-dublaj {background: none repeat scroll 0% 0% #2D98BF;font-family: Roboto;font-weight: 400;position: absolute;right: 3px;top: 3px;text-align: center;color: #FFF;font-size: 10px;border-width: 1px 1px 2px;border-style: solid;border-color: #157CA1;-moz-border-top-colors: none;-moz-border-right-colors: none;-moz-border-bottom-colors: none;-moz-border-left-colors: none;border-image: none;border-radius: 5px;padding: 3px 5px;}
+.tr-altyazi{background: none repeat scroll 0% 0% #E33724;font-family: Roboto;font-weight: 400;position: absolute;right: 3px;top: 3px;text-align: center;color: #FFF;font-size: 10px;border-width: 1px 1px 2px;border-style: solid;border-color: #C0392B;-moz-border-top-colors: none;-moz-border-right-colors: none;-moz-border-bottom-colors: none;-moz-border-left-colors: none;border-image: none;border-radius: 5px;padding: 3px 5px;}
+.tr-3d {background: none repeat scroll 0% 0% #009999 ;font-family: Roboto;font-weight: 400;position: absolute;right: 3px;top: 3px;text-align: center;color: #FFF;font-size: 10px;border-width: 1px 1px 2px;border-style: solid;border-color: #009966 ;-moz-border-top-colors: none;-moz-border-right-colors: none;-moz-border-bottom-colors: none;-moz-border-left-colors: none;border-image: none;border-radius: 5px;padding: 3px 5px;}
+.tr-yabanci-dizi {background: none repeat scroll 0% 0% #9B59B6;font-family: Roboto;font-weight: 400;position: absolute;right: 3px;top: 3px;text-align: center;color: #FFF;font-size: 10px;border-width: 1px 1px 2px;border-style: solid;border-color: #8E44AD;-moz-border-top-colors: none;-moz-border-right-colors: none;-moz-border-bottom-colors: none;-moz-border-left-colors: none;border-image: none;border-radius: 5px;padding: 3px 5px;}
+.tr-yerli-yapim {background: none repeat scroll 0% 0% #BE6D16;font-family: Roboto;font-weight: 400;position: absolute;right: 3px;top: 3px;text-align: center;color: #FFF;font-size: 10px;border-width: 1px 1px 2px;border-style: solid;border-color: #A45C0F;-moz-border-top-colors: none;-moz-border-right-colors: none;-moz-border-bottom-colors: none;-moz-border-left-colors: none;border-image: none;border-radius: 5px;padding: 3px 5px;}
+.tr-yerli-dizi {background: none repeat scroll 0% 0% #33CC66;font-family: Roboto;font-weight: 400;position: absolute;right: 3px;top: 3px;text-align: center;color: #FFF;font-size: 10px;border-width: 1px 1px 2px;border-style: solid;border-color: #00CC00 ;-moz-border-top-colors: none;-moz-border-right-colors: none;-moz-border-bottom-colors: none;-moz-border-left-colors: none;border-image: none;border-radius: 5px;padding: 3px 5px;}
+.tr-yetiskin {background: none repeat scroll 0% 0% #FF0000 ;font-family: Roboto;font-weight: 400;position: absolute;right: 3px;top: 3px;text-align: center;color: #FFF;font-size: 10px;border-width: 1px 1px 2px;border-style: solid;border-color: #CC0000;-moz-border-top-colors: none;-moz-border-right-colors: none;-moz-border-bottom-colors: none;-moz-border-left-colors: none;border-image: none;border-radius: 5px;padding: 3px 5px;}
+
+/********************************** SAYFALAMA WP-PAGENAVÝ ******************************/
+.wp-pagenavi {margin:9px 0 10px;margin-left:4px;padding-bottom:5px;float:left;font-family: Roboto;border-top:1px dotted #18222C ;border-bottom:1px dotted #18222C ;width:98%;padding-top:5px;color:#104458;}
+.wp-pagenavi a  {padding: 3px 5px;margin: 0 2px;font-size:13px;font-family: Roboto;color:#104458;font-weight:bold;}
+.wp-pagenavi span {padding: 3px 5px;margin: 0 2px;font-size:13px;font-family: Roboto;color#FF9900;font-weight:bold;}
+.wp-pagenavi a:hover, .wp-pagenavi span.current {font-weight:bold;color#FF9900;}
+.wp-pagenavi span.current {font-weight: bold;color:#FF9900;background:#18222C;}
+.wp-pagenavi.post-navi a span {padding: 3px 5px;margin: 0 2px;font-size:11px;font-family: Roboto;border-radius: 5px;-moz-border-radius: 5px;-webkit-border-radius: 5px;color:#cccccc;}
+.wp-pagenavi.post-navi span,
+.wp-pagenavi.post-navi a span:hover {color#FF9900;}
+.wp-pagenavi.post-navi a {padding: 0;margin: 0;background: none;border: 0;}
+
+/************************************** RESPONSÝVE VÝDEO ***********************************/
+.owl-item.loading{	min-height: 150px;background: url(AjaxLoader.gif) no-repeat center center;}
+.responsive-video {height: 0;overflow: hidden;margin-bottom: 1.5625em;padding: 25px 0 67.5%;	position: relative;}
+.responsive-video.hd {padding-bottom: 57.25%;}
+.responsive-video.vimeo {padding-top: 0;	padding-bottom: 75%;}
+.responsive-video.vimeo.hd {	padding-bottom: 56.25%;}
+.responsive-video.flickr {padding-top: 0;padding-bottom: 67%;}
+.responsive-video.flickr.hd {padding-bottom: 57.25%;}
+.responsive-video.flickr.img {height: auto;overflow: auto;padding: 0;}
+.responsive-video.flickr.img img{width: 100%;height: auto;}
+.responsive-video embed, .responsive-video iframe, .responsive-video object, .responsive-video video{	top: 0;left: 0;width: 100%;height: 100%;position: absolute;}
+
+/********************************** REKLAMLAR ***********************************/
+#header_sag{z-girx:44003;margin:0 auto;position:fixed;top:5px;right:5px;}
+#header_sol{z-girx:44003;margin:0 auto;position:fixed;top:5px;left:5px;}
+.othemesreklam { width: 745px; display:block;position:relative;float:left; text-align:center; height:90px;  margin-left:-10px; padding: 0px;  margin-bottom:16px;margin-top:-20px;}
+.othemesreklam img{width:100%;display:block;}
+.othemesreklam2 { width: 728px; float:left; text-align:center; height:90px;  margin-left:-30px; padding: 0px;  margin-top:10px;}
+.othemesreklam3 { width: 743px; float:left; text-align:center; height:auto;  margin-left:0px; padding: 0px;  margin-bottom:10px;margin-top:2px;}
+.othemesreklam3 img{display:block;width:100%;}
+.filmreklam {float:right;width:120px;margin:7px 0px 5px;padding-right:12px;}
+#filmoncereklam {margin-top:5px;margin-bottom:15px;}
+.reklamgec {font-size:13px;font-family: Roboto;font-weight:500;color:#FF9900 ;}
+.reklamgec:hover {color:#fff;}
+.aciklama{margin-bottom:8px;padding:6px;}
+
+/************************************** 404 HATA SAYFASI *****************************************/
+.yazitipyok{float:center;line-height:30px;width:90%;background:#18222C;padding:10px;margin-top:-5px;}
+.hatasayfasi {width: 100%;float: left;height: auto;background: none repeat scroll 0% 0% #34495E;margin-bottom:15px;border-radius: 10px;padding:3px;font-size:72px;color:#fff;text-shadow:1px 1px #111111;font-weight:bold;padding-top:30px;text-align:center;}
+.hatasayfasi p {margin-top:30px;font-size:18px;line-height:36px;padding-top:5px;color:#fff;font-family:Roboto;}
+
+/******************************************** FOOTER **********************************************/
+#footer {min-height: 60px;padding: 0px;margin-left:-7px;color: #fff;font-size: 14px;font-family: Roboto;width:100%;background:#272727;padding:7px;border-top:1px solid #222;margin-top:16px;}
+#footer p {color: #fff;font-size: 14px;font-family: Roboto;margin: 0px;padding: 9px 0px 0px 0px;}
+#footer a, #footer a:visited {color:#ddd;text-decoration: none;font-family: verdana,geneva,lucida,'lucida grande',arial,helvetica,sans-serif;}
+#footer a:hover {color:#FFFF00;text-decoration: underline;}
+#footer span {font-size:11px;color:#222;font-weight:bold;font-family: Arial, Helvetica, sans-serif;}
+.footeralt{background:#34495E;width:100%;margin-left:-7px;padding:7px;}
+.footeralt2{width:754px;margin:0px auto;padding:10px;text-align:center;color:#fff;}
+.footerilk {width:954px;padding:21px;margin:0 auto;position:relative;display:block;float:none;}
+.footerright{display:block;position:relative;width:700px;}
+.sosyalfooter{width:200px;margin:0px auto;display:block;position:relative;padding:0px;height:40px;z-index:9999;float:none;}
+.frss, .ffacebook, .ftwitter, .fgplus{background:#34495E;border-radius:20px;}
+.sosyalfooter li a{margin: 0px 0px 0px 0px;position: relative;width:35px;height:36px;color:#000;float:left;margin-right:5px;}
+.ffacebook:hover{background:#3B5998;}
+.frss:hover{background:#FA9C3A;}
+.ftwitter:hover{background:#16BDE9;}
+.fgplus:hover{background:#D54938;}
+.footerright { float:left; color: #222; width:100%; color: #222; margin:0px auto;display:block;position:relative;}
+/* footer orta menü */
+.nav4{width:680px;display:block;position:relative;margin:0px auto;float:none;}
+.nav4 ul{width:680px;padding:4px;margin:0px auto;display:block;margin-left:40px;float:none;}
+.nav4 ul li{display:block;}
+.nav4 ul li a{float:left;display:block;color:#000;font-size:14px;line-height:40px;font-weight:500;font-family: 'Roboto', sans-serif;margin-right:15px;}
+/* footer bölücü */
+
+
+/***************************************** SÝDEBAR ****************************************/
+#sidebar {width:22.6%;float:right;margin-top:-9px;}
+/* baþlýk */
+#content .sidebarborder h2 {display: block;width: 207px;background: none repeat scroll 0% 0% #34495E;font-size: 16px;line-height:28px;height:31px;text-transform: uppercase;margin-bottom:3px;border-top-left-radius: 5px;border-top-right-radius: 5px;float: left;color: #FFF;    font-weight: 600;margin-top:0px;letter-spacing: 0px;font-family: Roboto;position:relative;padding: 2px 10px 0px;}
+#content .sidebarborder {float:left;width:229px;margin-bottom:10px;overflow:hidden;border-top-left-radius: 5px;border-top-right-radius: 5px;}
+#content .sidebar-right {width: 227px;overflow:hidden;float:left;background: none repeat scroll 0% 0% #f2f2f2;border-radius:5px;border-top-left-radius: 5px;border-top-right-radius: 5px;}
+#content .sidebar-right ul{margin-left:3px;margin-top:2px;width: 227px;text-align: left;font-weight: 400;color:#e0e0c8;padding: 0px;float:left;}
+#content .sidebar-right ul li {text-align: left;font-weight: 400;color:#e0e0c8;margin-left:-4px;padding-top:3px;padding-bottom:3px;width:230px;float:left;}
+#content .sidebar-right ul li a{width: 205px;display: block;text-decoration: none;overflow:hidden;text-align: left;font-family: Roboto;color:#333;}
+#content .sidebar-right li ul {text-align: left;font-weight: 400;color:#e0e0c8;margin-left:-4px;padding-top:3px;padding-bottom:3px;width:230px;float:left;}
+#content .sidebar-right li ul a{width: 205px;display: block;text-decoration: none;overflow:hidden;text-align: left;font-family: Roboto;color:#333;}
+#content .sidebar-right ul li a:hover, .arrow li a:active {width: 205px;text-decoration:underline;display: block;overflow:hidden;text-align: left;color:#222 ;padding:5px 5px 5px 9px;background:none;}
+#content .sidebar-right li {float: left;text-align: left;margin-left:-4px;width: 227px;color:#e0e0c8;padding-top:4px;padding-bottom:4px;}
+#content .sidebar-right  li a{width: 205px;display: block;padding:5px 5px 5px 9px;text-decoration: none;overflow:hidden;text-align: left;color:#333 ;border-bottom:1px dashed #18222C;}
+#content .sidebar-right  li:hover {}
+#content .sidebar-right  li a:hover, .arrow ul li a:active {width: 205px;display: block;padding:5px 5px 5px 9px;text-decoration: none;overflow:hidden;text-align: left;border-bottom:1px dashed #18222C;color:#222;}
+#content .sidebar-right li strong{margin-left:8px;color:#ffba00;}
+
+/********************************************** SÝDEBAR FÝLM ÖZELLÝKLERÝ *****************************************/
+#content .sidebarborderb {float:left;width:229px;overflow:hidden;}
+#content .sidebar-rightb {width: 225px;margin-top: 7px;float: left;padding-left:4px;padding-right:4px;padding-bottom:20px;background: none repeat scroll 0% 0% #F2F2F2;border-radius: 1px;}
+/* resim bölümü */
+.filmaltiimg {float:left;width:208px;height:281;margin-top:-8px;margin-bottom:-34px;}
+.filmaltiimg img {width:208px;height:281px;border: 4px solid #CCC;margin-top:15px;margin-bottom:10px;margin-left:3px;}
+.filmaltiimg img:hover{cursor:pointer;border: 4px solid #999;}
+/* özellik bölümü */
+#filmozellikler{background: none repeat scroll 0% 0% #eee;margin-left:0px;padding: 6px 0px;border-bottom-right-radius: 6px;border-bottom-left-radius: 6px;width: 100%;overflow: hidden;line-height: 20px;font-family: Roboto;font-size: 12px;color: #2C3E50;font-weight:600;}
+dt{float: left;width: 85px;clear: both;text-align: right;text-transform: uppercase;margin: 0px 10px 0px 0px;font-size: 12px;font-weight: 700;color: #CE3725;padding: 2px;}
+dd{margin: 2px 0px 0px;font-size: 12px;width: 118px;float: left;overflow: hidden;color: #333;padding: 2px;line-height: 1.2em !important;color: #2C3E50;font-weight:600;}
+dd a, dd a:active, dd a:visited{color: #2C3E50;font-weight:600;}
+dd a:hover{color:#FF6600 ;}
+
+/************************************* BENZER FÝLMLER BÝLEÞENÝ *****************************************/
+/* benzer filmler baþlýðý */
+#benzertitle{font-size: 16px;font-weight: 700;color: #fff;margin: -7px -4px -10px;padding:10px;background: none repeat scroll 0% 0% #34495E;border-top-left-radius: 5px;border-top-right-radius: 5px;}
+/* benzer filmler kolon */
+.filmcerceve2 {width:107px;float:left;color:#005baa;font-size:11px;font-weight:normal;text-align:center;height: 200px;margin-top:20px;margin-right:4px;padding: 0px;position: relative;border-radius: 5px;}
+.filmcerceve2:hover{ }
+.filmcerceve2 a:hover{text-decoration:underline;color:#000;}
+.filmcerceve2 img {width:108px;height:153px;padding:0px;}
+/* baþlýk link */
+.filmgorunum2{width:102px; height:51px;float:left;color:#005baa;font-size:11px;font-weight:normal;background: none repeat scroll 0% 0% #ddd;overflow:hidden; line-height:14px;margin-top:-5px;padding:3px;}
+.filmgorunum2 a{color: #222;font-family: Roboto;font-weight: 500;line-height: 18px;font-size: 11px;text-align: left;}
+.filmgorunum2 a:hover{color:#FF3300;}
+
+/************************************** FEEDBURNER BÝLEÞENÝ *******************************************/
+/* feedburner baþlýk */
+#benzertitle4{font-size: 16px;font-weight: 700;color: #fff;margin: -6px -4px -10px;padding:10px;background: none repeat scroll 0% 0% #3ca972;}
+/*feedburner içerik */
+#content .sidebarbordery {float:left;width:229px;overflow:hidden;}
+#content .sidebar-righty {width: 225px;margin-top: 3px;float: left;padding-left:4px;padding-right:4px;padding-bottom:10px;background: none repeat scroll 0% 0% #f2f2f2;border-radius: 1px;color:#333;}
+
+/***************************************** GÜNÜN FÝLMÝ BÝLEÞENÝ *******************************************/
+/* günün filmi baþlýk */
+#benzertitle4x{font-size: 16px;font-weight: 700;color: #fff;margin: -6px -4px -10px;padding:10px;background: none repeat scroll 0% 0% #34495E;}
+/* günün filmi kolon */
+#content .sidebarborderyx {float:left;width:229px;overflow:hidden;padding-bottom:17px;}
+#content .sidebar-rightyx {width: 225px;margin-top:3px;float: left;padding-left:4px;padding-right:4px;padding-bottom:10px;background: none repeat scroll 0% 0% #f2f2f2;border-radius: 1px;}
+.filmcerceve3 {width:207px;float:left;color:#005baa;font-size:11px;font-weight:normal;text-align:center;height: 352px;margin-left:-3px;margin-top:4px;padding: 7px;position: relative;border-radius: 5px;}
+.filmcerceve3:hover{ }
+.filmcerceve3 a:hover{text-decoration:underline;color:#000;}
+.filmcerceve3 img {width:205px;height:290px;padding:0px;border:3px solid #6D929B;}
+.filmgorunum3x{width:193px; height:60px;float:left;color:#005baa;font-size:11px;font-weight:normal;background: none repeat scroll 0% 0% #6D929B;overflow:hidden; line-height:14px;margin-top:-6px;padding:9px;}
+.filmgorunum3x a{color: #FFF;font-size: 16px;line-height: 1.2em;font-weight: 400;}
+.filmgorunum3x a:hover{color:#000 ;text-decoration:none;}
+
+/************************************ POPÜLER FÝLMLER BÝLEÞENÝ *******************************************/
+/* popüler filmler baþlýk */
+#benzertitle6{font-size: 16px;font-weight: 700;color: #fff;margin: -7px -4px -10px;padding:10px;background: none repeat scroll 0% 0% #3c91a9;}
+
+/********************************* KARIÞIK BÝLEÞENLER ********************************/
+.facebookbox {background: none repeat scroll 0% 0% #eee;float: left;width: 238px;min-height: 102px;margin: -4px 0px -6px -5px;border-radius:5px;}
+#content .sidebar-right ul li.cat-item{width:110px;float:left;}
+#content .sidebar-right .cat-item{margin-left:0px;}
+#sidebar #searchbox {width:205px;border-radius:4px;margin-bottom:8px;}
+#sidebar #cat {width:93%;}
+.textwidget{padding:10px;}
+
+/*************************************** ÜYE PROFÝL SAYFASI ***********************************/
+/* kolonlar*/
+.user-left{float:left;width:218px;padding:8px 5px 5px 8px;}
+.user-right{float:left;width:450px;padding:8px 0px 5px 10px;margin-top:-1px;min-height:235px;}
+.user-right a, .user-left a {color:#333;}
+.user-right ul, .user-left ul {margin:0px;padding:0px;}
+.user-right li{color:#333;list-style:none;}
+.user-right li span {color:#333;}
+.user-left li {list-style:none;float:left;margin:2px;border-radius:4px;}
+.user-left li a{border-radius: 5px;
+cursor: pointer;width:174px;background: none repeat scroll 0% 0% #E74C3C;font-size: 13px;font-family: Roboto;float: left;padding: 2px 5px;border: 0px none;color: #333;}
+.user-left li a:hover {text-decoration:underline;}
+.profile-options {}
+/* avatar */
+.profile-avatar img {padding:1px;border:1px solid #18222C;border-radius:5px;}
+.profile-avatar img:hover{border:0px solid #FF6600 ;cursor:pointer;}
+/* hakkýnda - son yaptýðý yorumlar baþlýðý */
+.user-bas {font-size:22px;font-family: Roboto;font-weight:bold;margin-bottom:10px;margin-top:5px;}
+/* yaptýðý yorumlar */
+.user-comment {float:left;width:700px;padding:8px 5px 5px 2px;margin-left:8px;}
+.user-comment ul {margin:0px;padding:0px;}
+.user-comment li{color:#fff;list-style:none;background: none repeat scroll 0% 0% #18222C;margin-top:5px;padding:8px;border-radius:5px;}
+.user-comment li a{color:#fff;}
+.user-comment li p {margin:0px;padding:0px;}
+.user-basl {background:#A82F2F ;width:auto;padding:3px 3px 3px 6px;margin:-5px -5px 7px -5px;border-radius:5px;font-size:14px;line-height:26px;color:#fff;}
+
+/************************************* ÜYELÝK SAYFASI FORM *****************************************/
+input#user_login, input#contactSubject {background:#fff;padding:3px;border:1px solid #ddd;color:#333;border-radius:3px;font-size:14px;font-family:Roboto;line-height:20px;}
+input#user_email{background:#fff;padding:3px;border:1px solid #ddd;color:#333;border-radius:3px;font-size:14px;font-family:Roboto;line-height:20px;}
+label#user {padding:4px;font-size:14px;color:#333;font-family:Roboto;width:120px;display:block;float:left;}
+label#pwd{padding:4px;font-size:14px;color:#333;font-family:Roboto;width:120px;display:block;float:left;}
+label#mail {padding:4px;font-size:14px;color:#333;font-family:Roboto;width:120px;display:block;float:left;}
+input#user-submit {background:#34495E;border:1px solid #FEA700;cursor:pointer;}
+input#log {background:#fff;padding:3px;border:1px solid #ddd;color:#222;border-radius:3px;font-size:14px;font-family:Roboto;line-height:20px;}
+input#pwd {background:#fff;padding:3px;border:1px solid #ddd;color:#222;border-radius:3px;font-size:14px;font-family:Roboto;line-height:20px;}
+input.button {font-size: 14px;font-family: Roboto;color: #fff;background: none repeat scroll 0% 0% #34495E;border: 0px none;padding: 2px 10px;
+cursor: pointer;border-radius: 5px;}
+
+/************************************** ÝLETÝÞÝM SAYFASI FORM ***********************************/
+p.textarea {float:right;}
+.contactform {float:left;width:700px;}
+.textarea {float:left;margin-top:10px;width:520px;}
+#btn-send {font-size: 14px;font-family: Roboto;color: #fff;background: none repeat scroll 0% 0% #34495E;border: 0px none;padding: 2px 10px;cursor: pointer;border-radius: 5px;}
+#commentsText {width:520px;height:90px;background:#fff;padding:3px;border:1px solid #ddd;color:#333;font-size:14px;font-weight:500;font-family:Roboto;}
+
+/************************************** RESPONSIVE ********************************************/
+@media (max-width:865px){
+.alfaliste {display:none;}
+#sidebar{display:none;}
+body{ overflow-x:hidden;}
+.nav3{-webkit-border-bottom-left-radius:6px;-webkit-border-bottom-right-radius:6px;-moz-border-radius-bottomleft:6px;-moz-border-radius-bottomright:6px;border-bottom-left-radius:6px;border-bottom-right-radius:6px;}
+#footer {width:100%;}
+.footeralt{width:100%;}
+.footeralt2{width:80%;margin:0px auto;padding:10px;text-align:center;color:#fff;}
+.footerilk {width:100%;}
+.sosyalfooter{width:200px;}
+.nav4{width:100%;float:none;}
+.nav4 ul{width:680px;padding:4px;margin:0px auto;display:block;margin-left:40px;float:none;}
+}
+@media (max-width:750px){
+#mobil {display:none; background:#222;padding:10px;position:relative;height:auto;}
+.slidermobil, .alfaliste, #topnavbar, .altmenu, #header, .nav3, #searchbutton, #sidebar, #ana_title23, #baslikanaicerik,.footeralt, .ustnav, #footer, #filmsagli, .othemesreklam, .othemesreklam2, #fadeinbox{display:none;}
+#searchform {border-radius: 10px;} 
+#searchbox {	width: 98%;}
+#pull {display: block;text-align: center;font-size: 1.5em;width: 96%;text-decoration: none;color: #fff;margin: 0px auto;   padding: 0.25em 0.5em;background:#222;margin-bottom:15px;}
+#pull:hover, #pull:active, #pull:focus { background: #222;color: #fff;}
+.arama2 {float: left;margin:0px auto;width: 95%;}
+.wp-pagenavi a, .wp-pagenavi span  {font-size:20px;}
+.tr-dublaj, .tr-altyazi, .tr-3d, .tr-yabanci-dizi, .tr-yerli-yapim, .tr-yerli-dizi, .tr-yetiskin{font-size:20px;}
+.wp-pagenavi {margin:0px auto;float:none;padding-bottom:15px;width:320px;padding-top:15px;bottom:0px;display:block;background:#18222C}
+.singleh1baslik{padding:10px;float: none;width: 300px;line-height:28px;}
+.othemes_part{margin-top:15px;font-size: 16px;}
+.filmicerik {width:300px;}
+.othemesreklam3{display:block;width:320px;} 
+.filmicerik object, .filmicerik embed{width: 300px;}
+.filmalti{width:300px;}
+.filmaltiaciklama{width:300px;}
+.konuozet{width:270px;text-girnt: 1px;}
+#comment {font-size: 15px;width: 280px;}
+.commentlist {width:292px;}
+.anacercevef {width:94%;margin-top:15px;}
+#commentsText {width:280px;}
+.yazitipprofil{width: 300px;float:none;margin-left:0px;}
+.filmicerik2 {margin-left:8px;font-size:14px;margin-top:0px;width:291px;height:auto;overflow:hidden;color:#222;font-family:Roboto;font-weight:500;}
+.yazitipyok{margin-top:10px;}
+.konuozet p{text-girnt: 1px;}
+#content{width:99%;margin:0px auto;float:center;display:block;position:relative;}
+#wrap{display:block;margin:0px auto 0px;padding:0px;width:99%;position:relative;}
+.solbolum{display:block;padding:0px;margin:0px auto;width:320px;float:none;}
+.anaicerik{display:block;padding:0px;margin:0px auto;width:320px;}
+.anacerceve{display:block;padding:0px;margin:0px auto;width:320px;}
+.filmcerceve{display:block;width:300px;padding:5px;height:460px;border:none;}
+.filmcerceve:hover{border:none;}
+.filmcerceve img{display:block;width:300px;height:370px;padding:0px;}
+.filmgorunum{width:280px;padding:10px;height:70px;}
+.filmgorunum a{font-size:18px;line-height:24px;}
+}
+@media (max-width:1242px){
+#header_sag{display:none;}
+#header_sol{display:none;}
+}
+#secgoster{position:fixed;top:50px;left:0px;width:50px;height:67px;background:#fff;border:0px solid #ccc;cursor:pointer;z-index:99999;}
+.secenek{position:fixed;top:117px;left:0px;width:50px;height:107px;background:#fff;border:0px solid #ccc;display:none;}
+.secenek .gri{display:block;width:40px;height:40px;margin-bottom:7px;margin-top:12px;background:#A9DAE9;margin-left:5px;}
+.secenek .mavi{display:block;width:40px;height:40px;margin-bottom:7px;margin-top:5px;background:#18222C;margin-left:5px;}
+.secenek .toprak{display:block;width:40px;height:40px;margin-bottom:7px;margin-top:5px;background:#17A768;margin-left:5px;}

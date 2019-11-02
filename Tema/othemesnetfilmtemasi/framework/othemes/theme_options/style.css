@@ -1,0 +1,348 @@
+.othemes {
+	margin-top: 15px;
+	margin-left: 25px;
+	margin-bottom: 50px;
+	width: 962px;
+	max-height:1100px;
+	border-top:4px solid #E74C3C;
+}
+
+.othemes_header { width: 160px; overflow: hidden; margin: 0px; height: 180px; background: none repeat scroll 0% 0% #2F343B;margin-top:-50px;margin-left:-15px;
+	
+
+}
+.othemes_header img { float: left; }
+
+.othemes_header a { font-size: 11px; color: #898888; text-decoration: none; text-transform: uppercase; }
+
+.othemes .logo {margin:30px 30px 20px 20px;}
+.main_tabs { list-style: none; width: 172px;  background: none repeat scroll 0% 0% #2F343B;   margin-left:2px;margin-top:0px; max-height:1100px; display:block;position:relative;
+	float:left;
+	overflow: hidden;margin-right:-174px;
+}
+.main_tabs li { background:none; float: left;width: 160px; }
+.othemes .main_tabs li a { float: left; text-decoration:none;
+
+color: #DDD;
+display: block;
+height: 36px;
+width: 160px;
+padding: 0px 0px 0px 18px;
+line-height: 36px;
+position: relative;
+font-size: 12px;
+font-weight: bold;
+border-top: 1px dotted #444;
+
+
+
+
+
+ }
+.othemes .main_tabs li a:hover, .othemes .main_tabs li.selected a{color: #DDD;
+}
+.othemes .main_tabs li.selected  {background:none;}
+.othemes .main_tabs li:first-child {
+	
+}
+
+#kayitalt{display:block;width:963px;background: none repeat scroll 0% 0% #2F343B;position:absolute;bottom:55px;left:25px;}
+
+
+.othemes_container { background: #fff; width: 782px; border-bottom: 1px solid #cacaca; border-right: 1px solid #cacaca;  overflow: hidden; min-height:513px;border-left:180px solid #2F343B;}
+
+.othemes .sub_tabs {  height: 24px; overflow: hidden; }
+.othemes .sub_tabs ul { list-style: none; overflow: hidden; background: none repeat scroll 0% 0% #2F343B;  height: 24px; width: 789px; margin-left: 0px; margin-top: 0px; border-right:2px solid #2F343B;}
+.othemes .sub_tabs li { float: left; }
+.othemes .sub_tabs li a {  font-size: 13px; color: #ddd; float: left; text-decoration: none; height: 36px; padding: 0 20px; line-height: 24px; text-shadow: 1px 1px #none; }
+.othemes .sub_tabs li.selected a { color: #eee;}
+
+.othemes .top_button { float: right; margin-top: 15px; margin-right: 20px; margin-bottom: 15px; }
+.othemes .top_button img { margin-right: 8px; float: left; }
+.othemes .top_button input { float: left; background: url('images/save_btn.png') no-repeat top left; width: 155px; height: 30px; border: 0; cursor:pointer;}
+.othemes .top_button input:hover { background-position: bottom left; }
+
+.othemes .reset_save { margin-bottom: 15px; }
+
+.othemes .bottom_button { float: right; margin-top: 15px; margin-right: 20px; }
+.othemes .bottom_button img { margin-right: 8px; float: left; }
+.othemes .bottom_button input { float: left; background: url('images/save_btn.png') no-repeat top left; width: 155px; height: 30px; border: 0; cursor:pointer;}
+.othemes .bottom_button input:hover { background-position: bottom left; }
+
+.othemes .reset_button { float: left; margin-top: 15px; margin-left: 20px;}
+.othemes .reset_button img { margin-left: 8px; float: left; }
+.othemes .reset_button input { float: left; background: url('images/reset_btn.png') no-repeat top left; width: 102px; height: 30px; border: 0; cursor:pointer;}
+.othemes .reset_button input:hover { background-position: bottom left; }
+
+.othemes .field {
+	background: #ffffff;
+	width: 709px;
+	border: 1px solid #d5d5d5;
+	margin-left: 18px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	padding: 15px;
+	overflow: hidden;
+	box-shadow: -1px -2px 5px rgba(213,213,213, 0.3);
+	margin-bottom: 15px;
+}
+
+.othemes .field label {
+	font-size: 13px;
+	color: #454545;
+	width: 130px;
+	float: left;
+	font-weight: bold;
+}
+
+.othemes .field .input {
+	float: left;
+	width: 345px;
+}
+
+.othemes .field .desc {
+	float: left;
+	width:234px;
+	color: #858484;
+	font-size: 11px;
+	margin: 0;
+	padding: 0;
+}
+
+.othemes .field .desc_checkbox {
+	float: left;
+	width:360px;
+	color: #858484;
+	font-size: 11px;
+	margin: 0;
+	padding: 0;
+}
+
+.othemes .field input[type=text] {
+	background: url('images/input_bg.png') repeat-x top left;
+	color: #828282;
+	font-size: 12px;
+	border: 1px solid #d0d0d0;
+	width: 90%;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+.othemes .field textarea {
+	background: url('images/input_bg.png') repeat-x top left;
+	color: #828282;
+	font-size: 12px;
+	border: 1px solid #d0d0d0;
+	width: 90%;
+	padding: 5px;
+	margin-bottom: 10px;
+	height: 120px;
+}
+
+.othemes .upload_button {
+	background: url('images/upload_btn.png') no-repeat top left;
+	width: 78px;
+	height: 30px;
+	float: right;
+	border:0px;
+	text-indent: -10000px;
+	margin-right: 32px;
+}
+
+
+
+.othemes select {width:315px;}
+
+.othemes .checkbox input { float: left;}
+.othemes .checkbox label { float: left; width: 300px; margin-left: 5px; font-weight: normal;}
+
+.othemes .images .input img { padding: 4px; border: 1px solid #dddddd; margin-right: 5px; margin-bottom: 5px; cursor: pointer; }
+.othemes .images .input img.selected { border: 2px solid #7b7b7b; }
+
+.othemes .skins .input img { padding: 4px; border: 1px solid #dddddd; margin-right: 5px; margin-bottom: 5px; cursor: pointer; }
+.othemes .skins .input img.selected { border: 2px solid #7b7b7b; }
+
+.othemes .colorpicker_wrapper .input { position: relative; }
+.othemes .colorpicker_wrapper .input input { padding-top: 10px; padding-bottom: 10px; }
+.othemes .colorSelector { position: absolute; top: 6px; right: 40px; }
+
+/* Color Picker */
+
+.colorpicker {
+	width: 356px;
+	height: 176px;
+	overflow: hidden;
+	position: absolute;
+	background: url(images/colorpicker/colorpicker_background.png);
+	font-family: Arial, Helvetica, sans-serif;
+	display: none;
+}
+.colorpicker_color {
+	width: 150px;
+	height: 150px;
+	left: 14px;
+	top: 13px;
+	position: absolute;
+	background: #f00;
+	overflow: hidden;
+	cursor: crosshair;
+}
+.colorpicker_color div {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 150px;
+	height: 150px;
+	background: url(images/colorpicker/colorpicker_overlay.png);
+}
+.colorpicker_color div div {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 11px;
+	height: 11px;
+	overflow: hidden;
+	background: url(images/colorpicker/colorpicker_select.gif);
+	margin: -5px 0 0 -5px;
+}
+.colorpicker_hue {
+	position: absolute;
+	top: 13px;
+	left: 171px;
+	width: 35px;
+	height: 150px;
+	cursor: n-resize;
+}
+.colorpicker_hue div {
+	position: absolute;
+	width: 35px;
+	height: 9px;
+	overflow: hidden;
+	background: url(images/colorpicker/colorpicker_indic.gif) left top;
+	margin: -4px 0 0 0;
+	left: 0px;
+}
+.colorpicker_new_color {
+	position: absolute;
+	width: 60px;
+	height: 30px;
+	left: 213px;
+	top: 13px;
+	background: #f00;
+}
+.colorpicker_current_color {
+	position: absolute;
+	width: 60px;
+	height: 30px;
+	left: 283px;
+	top: 13px;
+	background: #f00;
+}
+.colorpicker input {
+	background-color: transparent;
+	border: 1px solid transparent;
+	position: absolute;
+	font-size: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #898989;
+	top: 4px;
+	right: 11px;
+	text-align: right;
+	margin: 0;
+	padding: 0;
+	height: 12px;
+}
+.colorpicker_hex {
+	position: absolute;
+	width: 72px;
+	height: 22px;
+	background: url(images/colorpicker/colorpicker_hex.png) top;
+	left: 212px;
+	top: 142px;
+}
+.colorpicker_hex input {
+	right: 6px;
+}
+.colorpicker_field {
+	height: 22px;
+	width: 62px;
+	background-position: top;
+	position: absolute;
+}
+.colorpicker_field span {
+	position: absolute;
+	width: 12px;
+	height: 22px;
+	overflow: hidden;
+	top: 0;
+	right: 0;
+	cursor: n-resize;
+}
+.colorpicker_rgb_r {
+	background-image: url(images/colorpicker/colorpicker_rgb_r.png);
+	top: 52px;
+	left: 212px;
+}
+.colorpicker_rgb_g {
+	background-image: url(images/colorpicker/colorpicker_rgb_g.png);
+	top: 82px;
+	left: 212px;
+}
+.colorpicker_rgb_b {
+	background-image: url(images/colorpicker/colorpicker_rgb_b.png);
+	top: 112px;
+	left: 212px;
+}
+.colorpicker_hsb_h {
+	background-image: url(images/colorpicker/colorpicker_hsb_h.png);
+	top: 52px;
+	left: 282px;
+}
+.colorpicker_hsb_s {
+	background-image: url(images/colorpicker/colorpicker_hsb_s.png);
+	top: 82px;
+	left: 282px;
+}
+.colorpicker_hsb_b {
+	background-image: url(images/colorpicker/colorpicker_hsb_b.png);
+	top: 112px;
+	left: 282px;
+}
+.colorpicker_submit {
+	position: absolute;
+	width: 22px;
+	height: 22px;
+	background: url(images/colorpicker/colorpicker_submit.png) top;
+	left: 322px;
+	top: 142px;
+	overflow: hidden;
+}
+.colorpicker_focus {
+	background-position: center;
+}
+.colorpicker_hex.colorpicker_focus {
+	background-position: bottom;
+}
+.colorpicker_submit.colorpicker_focus {
+	background-position: bottom;
+}
+.colorpicker_slider {
+	background-position: bottom;
+}
+
+.colorSelector {
+    position: relative;
+    width: 27px;
+    height: 27px;
+    background: url(images/colorpicker/select.png);
+    float:left;
+}
+.colorSelector div {
+    position: absolute;
+    top: 4px;
+    left: 3px;
+    width: 21px;
+    height: 19px;
+    background: url(images/colorpicker/select.png) center;
+}
