@@ -1,5 +1,6 @@
 ## Ücretsiz WordPress Film Teması
 Hangi temayı kullanıyor olursanız olun eski içeriklerinizi kaybetmeden Othemes Responsive Film Teması‘na zahmetsizce geçebilirsiniz. Tema ayarlarından eski temanızla ilgili özel alanları yeni temanıza kolayca aktarabilirsiniz. Othemes Responsive Film Teması hazırda 2 farklı renk seçeneğine sahiptir ve responsive (mobil uyumlu) yapıdadır.
+#### **DEMO İÇİN [TIKLAYIN](http://othemes.net/temalar/wordpress-responsive-film-temasi)**
 
 ![Film Teması](http://othemes.net/wp-content/uploads/edd/wordpress-film-temasi-anasayfa-1.jpg)
 
@@ -38,7 +39,7 @@ Bir de forumlarda konu açınca konuyu hemen siliyorlar. Orada bir sıkıntı va
 
 ## ÖNEMLİ NOT:
 
-TEMA ŞUAN TAMAMEN GÜNCELLENİP BAŞTAN YAPILMAKTADIR. KEREMİYA GİBİ TEMALARDAN ALINMIŞ BAZI BÖLÜMLER VARDI, DÜZENLEMELER VARDI. ŞİMDİ TAMAMEN SIFIRDAN YAPIYORUM -ZAMAN BULDUKÇA-.
+TEMA ŞUAN TAMAMEN GÜNCELLENİP BAŞTAN YAPILMAKTADIR. PİYASADAKİ TEMALARDAN ALINMIŞ BAZI BÖLÜMLER VARDI, DÜZENLEMELER VARDI. ŞİMDİ TAMAMEN SIFIRDAN YAPIYORUM -ZAMAN BULDUKÇA-.
 
 YENİ TEMA ÇOK DAHA GÜZEL OLACAK. PREMİUM FİLM TEMALARINDAN BİR EKSİĞİ OLMAYACAK VE YİNE TAMAMEN AÇIK KAYNAK KODLU VE ÜCRETSİZ OLACAK.
 
